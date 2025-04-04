@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+.class{
+    border: 1px solid red;
+    border:none;
+    height:80px;
+    
+}
+
+
+
+.class h1{
+    text-align: center;
+    font-size:35px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.pages{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:50px;
+    
+}   
+.container{
+    border: 1px solid rgb(20, 20, 20);
+    width: 260px;
+    height: 340px;
+    border: none;
+    border-radius:93% 7% 94% 6% / 34% 76% 24% 66%  ;
+    margin-top: 10px;
+    background-color: rgb(163, 165, 167);
+}
+/* .pages :hover {
+    box-shadow: 0px 0px 10px 10px rgb(31, 30, 30);
+    transition: all 0.5s;
+} */
+    
+
+.fa-heart{
+    position: relative;
+    left: 215px;
+    font-size: 22px;
+    bottom: 120px;
+    color: black;
+}
+.fa-heart:hover{
+    color:red;
+}
+
+img{
+    position: relative;
+    height:150px;
+    width:150px;
+    left: 25px;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+p:nth-of-type(1){
+    text-align: center;
+    font-size: 18px;
+    font-weight:700;
+    margin-top: 2px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+p:nth-of-type(2){
+    text-align: right;
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: 600;
+}
+p:nth-of-type(3){
+    text-align: center;
+    font-size: 15px;
+    margin-top: 4px;
+    font-weight: 500;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+ button{
+    border: none;
+    border-radius:12px;
+    background:linear-gradient(to right,rgb(247, 223, 180),rgb(226, 235, 174));
+    height:40px;
+    width:120px;
+    margin-top: 5px;
+    margin-left:5px;
+    font-size: 15px;
+    font-weight:800;
+    text-decoration: none;
+    font-family: Okra, Helvetica, sans-serif;
+    
+}
+
+ button a{
+    color: black;
+    text-decoration: none;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px 5px rgb(24, 23, 23);
+    transition: all 0.5s;
+}
+
+.fa-bag-shopping {
+    margin-left: 5px;
+}
+
+.fa-cart-shopping{
+    margin-left: 5px;
+}
+
+
+
+
+.ratings{
+    padding: 2px 0px 10px 2px;
+    margin: 5px 0px 0px 5px;
+}
+
+footer {
+    border: 1px solid red;
+    border: none;
+    /* width: 1345px; */
+    margin-left: 2px;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 300;
+    height: 260px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+footer .whatsapp button {
+    height: 45px;
+    width: 155px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(49, 48, 48);
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    top: 170px;
+    left: 1090px;
+    background-color: rgb(18, 230, 18);
+
+}
+
+footer h2 {
+    padding-top: 20px;
+}
+
+footer .mail {
+    border: 1px solid red;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+
+}
+
+.button .fa-brands {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+footer .hours {
+    padding-top: 10px;
+}
+
+footer .follow {
+    padding: 10px;
+}
+
+
+.follow p .fa-brands {
+    padding-right: 10px;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .policy p {
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+footer address {
+    margin-top: 10px;
+}
+
+footer .mail p {
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+footer .mail .fa-brands {
+    padding-right: 10px;
+}
+
+footer .mail .fa-duotone {
+    padding-right: 10px;
+}
+
+.store {
+    position: absolute;
+    top: 20px;
+    border: 1px solid red;
+    border: none;
+    height: 80px;
+    width: 190px;
+}
+
+.store h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.store img {
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+footer .terms {
+    position: relative;
+    top: 20px;
+}
+
+footer .terms p {
+    position: absolute;
+    left: 30px;
+    top: 42px;
+    font-weight: 100;
+}
+
+footer .follow p {
+    position: absolute;
+    left: 500px;
+    font-weight: 100;
+}
+
+.card {
+    position: absolute;
+    right: 100px;
+    top: 46px;
+}
+
+.card img {
+    height: 20px;
+    width: 40px;
+    border-radius: 0px;
+}
