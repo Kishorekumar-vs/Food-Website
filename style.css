@@ -1,0 +1,1808 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --kfont1: "Questrial", serif;
+    --kfont2: "Libre Bodoni", serif;
+    --kfont3: "Merienda", serif;
+    --kfont4: "Okra, Helvetica", sans-serif;
+}
+
+body {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(235, 230, 230);
+}
+
+
+.child {
+    background-image: url(./images/box1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.fa-bowl-food {
+    margin-left: 8px;
+}
+
+.child header {
+    display: flex;
+    height: 110px;
+    backdrop-filter: blur(10px);
+}
+
+header .logo h1 {
+    margin: 15px 0px 0px 15px;
+    color: rgb(245, 239, 239);
+    text-shadow: 0px 0px 10px rgb(250, 8, 8);
+}
+
+header .logo span {
+    color: rgb(247, 244, 244);
+    text-shadow: 0px 0px 10px rgb(241, 7, 7);
+}
+
+header .logo h1 .fa-brands {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 460px;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+header nav ul li a:link {
+    color: rgb(236, 184, 116);
+}
+
+header nav ul li a:visited {
+    color: rgb(244, 241, 248);
+}
+
+header nav ul li a:active {
+    color: rgb(240, 201, 102);
+}
+
+header nav ul li a:hover {
+    border-radius: 7px;
+    color: red;
+    transition: all 1.0s;
+}
+
+header input[type=text] {
+    height: 45px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 60px;
+    left: 870px;
+}
+
+header input {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+header p {
+    font-size: 23px;
+    position: absolute;
+    left: 1198px;
+    top: 70px;
+}
+
+header p .fa-solid {
+    color: rgb(184, 179, 179);
+}
+
+header p .fa-solid:hover {
+    color: rgb(247, 40, 40);
+}
+
+header .add p {
+    font-size: 23px;
+    position: absolute;
+    left: 1230px;
+    top: 70px;
+}
+
+header .add p .fa-solid {
+    color: rgb(184, 181, 181);
+}
+
+header .add p .fa-solid:hover {
+    color: rgb(96, 96, 238);
+}
+
+.box {
+    position: relative;
+}
+
+.box-01 img {
+    height: 350px;
+    width: 350px;
+}
+
+.box-02 img {
+    height: 190px;
+    width: 350px;
+}
+
+.box-01 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+.box-02 {
+    position: absolute;
+    top: 100px;
+    left: 325px;
+    z-index: 15;
+}
+
+.dish p {
+    border: 1PX solid black;
+    height: 300px;
+    width: 570px;
+    font-size: 19px;
+    position: absolute;
+    top: 50px;
+    left: 730px;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-color: rgb(251, 253, 255);
+    border: none;
+}
+
+.dish p {
+    box-shadow: 0px 0px 5px 5px rgb(75, 74, 74);
+}
+
+.dish button {
+    height: 45px;
+    width: 155px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    top: 280px;
+    left: 930px;
+    margin-top: 10px;
+    border-radius: 11px;
+    border: 1px solid black;
+    border: none;
+    background: linear-gradient(to right, rgb(163, 162, 161), white);
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.dish button a {
+    text-decoration: none;
+    color: black;
+}
+
+.dish button:hover {
+    box-shadow: 0px 0px 8px 5px rgb(100, 99, 98);
+    transition: all 0.5s;
+}
+
+.popular {
+    position: relative;
+    top: 390px;
+}
+
+.popular h3 {
+    font-size: 28px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.food {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.img img {
+    margin-left: 40px;
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
+}
+
+.img {
+    border: 1px solid red;
+    height: 280px;
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 0% 100% 0% 100% / 73% 75% 25% 27%;
+    border: none;
+    background-color: rgb(202, 201, 201);
+}
+
+.img p:nth-of-type(1) {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: rgb(17, 17, 17);
+    font-family: var(--kfont2);
+}
+
+.img p:nth-of-type(2) {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 63px;
+    font-family: var(--kfont4);
+}
+
+
+.briyani {
+    position: relative;
+    top: 410px;
+    margin-top: 10px;
+}
+
+.spicy {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.briyani h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.spicy {
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.spicy img {
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.spicy:hover>:not(:hover) {
+    filter: blur(5px);
+    opacity: 5;
+}
+
+.taste1 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    z-index: 5;
+}
+
+.taste2 {
+    position: absolute;
+    top: 20px;
+    right: 495px;
+    z-index: 15;
+}
+
+.taste3 {
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    z-index: 7;
+}
+
+.taste4 {
+    position: absolute;
+    top: 20px;
+    right: 999px;
+    z-index: 3;
+}
+
+.taste5 {
+    position: absolute;
+    top: 20px;
+    left: 999px;
+    z-index: 2;
+}
+
+.offer {
+    margin-top: 10px;
+    border: 2px solid red;
+    border: none;
+    height: 150px;
+    background-image: url(./images/discount.avif);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 790px;
+    padding-top: 40px;
+    color: whitesmoke;
+    backdrop-filter: blur(20px);
+}
+
+.hii {
+    border: 1px solid red;
+    height: 270px;
+    border: none;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    position: relative;
+    top: 790px;
+}
+
+.hello img {
+    margin-left: 60px;
+    margin-top: 2px;
+    height: 150px;
+    width: 120px;
+    border-radius: 100px;
+}
+
+.hello {
+    border: 2px solid red;
+    width: 550px;
+    height: 250px;
+    border: none;
+}
+
+.hello p a {
+    margin-left: 89px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Gilroy_Bold;
+    text-shadow: 0px 0px 5px rgb(26, 24, 24);
+}
+
+.hello .about p {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--kfont3);
+}
+
+.reviews {
+    position: relative;
+    top: 800px;
+    border: 1px solid red;
+    border: none;
+    height: 250px;
+}
+
+.reviews h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.reviews h3 a {
+    position: absolute;
+    left: 820px;
+    top: 8px;
+    font-size: 15px;
+    margin-top: 0px;
+    color: blue;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.photo {
+    border: 1px solid red;
+    border: none;
+    background-color: rgb(177, 174, 174);
+    height: 160px;
+    width: 280px;
+    margin-top: 20px;
+    border-radius: 47% 53% 66% 34% / 0% 99% 1% 100%;
+}
+
+.photo img {
+    height: 50px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+}
+
+.photo button {
+    background-color: green;
+    margin-left: 50px;
+    border-radius: 7px;
+    height: 25px;
+    width: 50px;
+    color: white;
+
+}
+
+.photo p:nth-of-type(1) {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.photo p:nth-of-type(2) {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.photo p:nth-of-type(3) {
+    margin-left: 70px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+footer {
+    border: 1px solid red;
+    border: none;
+    margin-left: 2px;
+    margin-top: 800px;
+    text-align: center;
+    height: 260px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+footer .button button {
+    height: 45px;
+    width: 155px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(49, 48, 48);
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    top: 170px;
+    left: 1090px;
+    background-color: rgb(26, 165, 26);
+}
+
+footer h2 {
+    padding-top: 20px;
+}
+
+footer .mail {
+    border: 1px solid red;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+}
+
+.button .fa-brands {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+footer .hours {
+    padding-top: 10px;
+}
+
+footer .follow {
+    padding: 10px;
+}
+
+
+.follow p .fa-brands {
+    padding-right: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer address {
+    margin-top: 10px;
+}
+
+footer .mail p {
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+footer .mail .fa-brands {
+    padding-right: 10px;
+}
+
+footer .mail .fa-duotone {
+    padding-right: 10px;
+}
+
+.store {
+    position: absolute;
+    top: 20px;
+    left:40px;
+    border: 1px solid red;
+    border: none;
+    height: 80px;
+    width: 190px;
+}
+
+.store h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.store img {
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+footer .terms {
+    position: relative;
+    top: 20px;
+}
+
+footer .terms p {
+    position: absolute;
+    left: 30px;
+    top: 42px;
+}
+
+footer .follow p {
+    position: absolute;
+    left: 500px;
+}
+
+.card {
+    position: absolute;
+    right: 100px;
+    top: 46px;
+}
+
+.card img {
+    height: 20px;
+    width: 40px;
+}
+
+@media screen and (max-width:768px){
+body {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(235, 230, 230);
+}
+
+
+.child {
+    background-image: url(./images/thokku\ b31.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+
+.child header {
+    display: flex;
+    height: 80px;
+    backdrop-filter: blur(10px);
+}
+header .logo h1{
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+}
+
+
+header .logo span {
+    color: rgb(15, 15, 15);
+    text-shadow: 0px 0px 10px rgb(241, 7, 7);
+}
+
+header .logo h1 .fa-brands {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+header nav ul li a:link {
+    color: rgb(115, 194, 224);
+}
+
+header nav ul li a:visited {
+    color: rgb(244, 241, 248);
+}
+
+header nav ul li a:active {
+    color: rgb(240, 201, 102);
+}
+
+header nav ul li a:hover {
+    border-radius: 7px;
+    color: red;
+    transition: all 1.0s;
+}
+
+header input[type=text] {
+    height: 25px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+header input {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+header p {
+    font-size: 23px;
+    position: absolute;
+    left:680px;
+    top: 50px;
+}
+
+header p .fa-solid {
+    color: rgb(184, 179, 179);
+}
+
+header p .fa-solid:hover {
+    color: rgb(247, 40, 40);
+}
+
+header .add p {
+    font-size: 23px;
+    position: absolute;
+    left: 710px;
+    top: 50px;
+}
+
+header .add p .fa-solid {
+    color: rgb(184, 181, 181);
+}
+
+header .add p .fa-solid:hover {
+    color: rgb(96, 96, 238);
+}
+
+.box {
+    position: relative;
+}
+
+.box-01 img {
+    height: 230px;
+    width: 200px;
+}
+
+.box-02 img {
+    height: 140px;
+    width: 200px;
+}
+
+.box-01 {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.box-02 {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    z-index: 15;
+}
+
+.dish p {
+    border: 1PX solid black;
+    height: 210px;
+    width: 350px;
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    left: 390px;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 25px;
+    font-family: Okra, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-color: rgb(251, 253, 255);
+    border: none;
+}
+
+.dish button {
+    height: 35px;
+    width: 140px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 202px;
+    left: 490px;
+    margin-top: 10px;
+    border-radius: 11px;
+    border: 1px solid black;
+    border: none;
+    background: linear-gradient(to right, rgb(163, 162, 161), white);
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.dish button a {
+    text-decoration: none;
+    color: black;
+} 
+
+
+
+.popular {
+    position: relative;
+    top: 320px;
+}
+
+.popular h3 {
+    font-size: 28px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.food {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.img img {
+    margin-left: 40px;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.img {
+    border: 1px solid red;
+    margin-left: 10px;
+    height: 180px;
+    width: 230px;
+    margin-top: 10px;
+    border-radius: 0% 100% 0% 100% / 73% 75% 25% 27%;
+    border: none;
+    background-color: rgb(202, 201, 201);
+}
+
+.img p:nth-of-type(1) {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: rgb(17, 17, 17);
+    font-family: var(--kfont2);
+}
+
+.img p:nth-of-type(2) {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 33px;
+    font-family: var(--kfont4);
+}
+
+
+.briyani {
+    position: relative;
+    top: 360px;
+    margin-top: 10px;
+}
+
+.spicy {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.briyani h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.spicy {
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.spicy img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.spicy:hover>:not(:hover) {
+    filter: blur(5px);
+    opacity: 5;
+}
+
+.taste1 {
+    position: absolute;
+    top: 20px;
+    left: 410px;
+    z-index: 5;
+}
+
+.taste2 {
+    position: absolute;
+    top: 20px;
+    right: 255px;
+    z-index: 15;
+}
+
+.taste3 {
+    position: absolute;
+    top: 20px;
+    right: 400px;
+    z-index: 7;
+}
+
+.taste4 {
+    position: absolute;
+    top: 20px;
+    right: 509px;
+    z-index: 3;
+}
+
+.taste5 {
+    position: absolute;
+    top: 20px;
+    left: 509px;
+    z-index: 2;
+}
+
+.offer {
+    margin-top: 10px;
+    border: 2px solid red;
+    border: none;
+    height: 150px;
+    width: 100%;
+    background-image: url(./images/discount.avif);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 630px;
+    padding-top: 40px;
+    color: whitesmoke;
+    backdrop-filter: blur(20px);
+}
+
+.hii {
+    border: 1px solid red;
+    height: 210px;
+    border: none;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    position: relative;
+    top: 630px;
+}
+
+.hello img {
+    margin-left: 30px;
+    margin-top: 2px;
+    height: 100px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.hello {
+    border: 2px solid red;
+    width: 550px;
+    height: 200px;
+    border: none;
+}
+
+.hello p a {
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Gilroy_Bold;
+    text-shadow: 0px 0px 5px rgb(26, 24, 24);
+}
+
+.hello .about p {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reviews {
+    position: relative;
+    top: 650px;
+    border: 1px solid red;
+    border: none;
+    height: 90px;
+}
+
+.reviews h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.reviews h3 a {
+    position: absolute;
+    left: 535px;
+    top: 8px;
+    font-size: 15px;
+    margin-top: 0px;
+    color: blue;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo {
+    border: 1px solid red;
+    border: none;
+    background-color: rgb(177, 174, 174);
+    height: 130px;
+    width: 175px;
+    margin-top: 20px;
+    border-radius: 47% 53% 66% 34% / 0% 99% 1% 100%;
+}
+
+.photo img {
+    height: 40px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 2px;
+    border-radius: 7px;
+
+}
+
+.photo button {
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 24px;
+    width: 45px;
+    color: white;
+
+}
+.photo button i{
+    font-size: 12px;
+}
+
+.photo p:nth-of-type(1) {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.photo p:nth-of-type(2) {
+    margin-left: 54px;
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.photo p:nth-of-type(3) {
+    margin-left: 50px;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+footer {
+    border: 1px solid red;
+    border: none;
+    margin-left: 2px;
+    margin-top: 800px;
+    text-align: center;
+    font-weight: 300;
+    height: 260px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+footer .button button {
+    height: 35px;
+    width: 125px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(49, 48, 48);
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    top: 170px;
+    left: 610px;
+    background-color: rgb(26, 165, 26);
+}
+
+footer h2 {
+    padding-top: 20px;
+    font-size: 18x;
+}
+footer p{
+    font-size: 12px;
+}
+
+
+footer .mail {
+    border: 1px solid red;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 570px;
+}
+
+.button .fa-brands {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+footer .hours {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+
+.follow p .fa-brands {
+    padding-right: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+footer .mail p {
+    font-size: 15px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+footer .mail .fa-brands {
+    padding-right: 10px;
+}
+
+footer .mail .fa-duotone {
+    padding-right: 10px;
+}
+
+.store {
+    position: absolute;
+    top: 20px;
+    left:20px;
+    border: 1px solid red;
+    border: none;
+    height: 80px;
+    width: 130px;
+}
+
+.store h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.store img {
+    height: 50px;
+    width: 140px;
+    margin-top: 10px;
+}
+
+footer .terms {
+    position: relative;
+    top: 20px;
+}
+
+footer .terms p {
+    position: absolute;
+    left: 10px;
+    top: 42px;
+    font-size: 13px;
+}
+
+footer .follow p {
+    position: absolute;
+    left: 320px;
+    font-size: 13px;
+}
+
+.card {
+    position: absolute;
+    right: 10px;
+    top: 46px;
+}
+
+.card img {
+    height: 19px;
+    width: 25px;
+}
+
+
+}
+
+@media screen and (max-width:430px){
+    body {
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgb(235, 230, 230);
+    }
+    
+    
+    .child {
+        background-image: url(./images/leg\ piece\ g11.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+       
+    }
+    .child header {
+        display: inline-block;
+        height: 170px;
+        width: 250px;
+        backdrop-filter: blur(10px);
+    }
+    header .logo h1{
+        font-size: 18px;
+        color: rgb(248, 246, 246);
+        margin-top: 20px;
+    }
+    
+    
+    header .logo span {
+        color: rgb(248, 243, 243);
+        text-shadow: 0px 0px 10px rgb(241, 7, 7);
+    }
+    
+    header .logo h1 .fa-brands {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    header nav ul {
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+        list-style: none;
+    }
+    
+    header nav ul li {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    
+    header nav ul li a {
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(15, 15, 15) !important;
+    }
+    
+    header nav ul li a:link {
+        color: rgb(115, 194, 224);
+    }
+    
+    header nav ul li a:visited {
+        color: rgb(244, 241, 248);
+    }
+    
+    header nav ul li a:active {
+        color: rgb(240, 201, 102);
+    }
+    
+    header nav ul li a:hover {
+        border-radius: 7px;
+        color: red;
+        transition: all 1.0s;
+    }
+    
+    header input[type=text] {
+        height: 35px;
+        width: 130px;
+        border-radius: 6px;
+        border: none;
+        position: absolute;
+        top: 20px;
+        left: 210px;
+    }
+    
+    header input {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    
+    header p {
+        font-size: 23px;
+        position: absolute;
+        left:365px;
+        top: 30px;
+    }
+    
+    header p .fa-solid {
+        color: rgb(184, 179, 179);
+    }
+    
+    header p .fa-solid:hover {
+        color: rgb(247, 40, 40);
+    }
+    
+    header .add p {
+        font-size: 23px;
+        position: absolute;
+        left: 399px;
+        top: 30px;
+    }
+    
+    header .add p .fa-solid {
+        color: rgb(184, 181, 181);
+    }
+    
+    header .add p .fa-solid:hover {
+        color: rgb(96, 96, 238);
+    }
+    
+    .box {
+        position: relative;
+    }
+    
+    .box-01 img {
+        height: 120px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    
+    .box-02 img {
+        height: 90px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    
+    .box-01 {
+        position: absolute;
+        top: 50px;
+    }
+    
+    .box-02 {
+        position: absolute;
+        top: 62px;
+        left: 90px;
+        z-index: 15;
+    }
+    
+    .dish p {
+        border: 1PX solid black;
+        height: 190px;
+        width: 220px;
+        font-size: 10px;
+        position: absolute;
+        top: 20px;
+        left: 200px;
+        padding-top: 10px;
+        padding-left: 15px;
+        line-height: 16px;
+        font-family: Okra, Helvetica, sans-serif;
+        border-radius: 15px;
+        background-color: rgb(251, 253, 255);
+        border: none;
+    }
+    
+    .dish button {
+        height: 20px;
+        width: 90px;
+        font-size: 11px;
+        font-weight: 700;
+        position: absolute;
+        top: 170px;
+        left: 260px;
+        margin-top: 10px;
+        border-radius: 6px;
+        border: 1px solid black;
+        border: none;
+        background: linear-gradient(to right, rgb(163, 162, 161), white);
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    .dish button a {
+        text-decoration: none;
+        color: black;
+    } 
+    
+    .popular {
+        position: relative;
+        top: 250px;
+    }
+    
+    .popular h3 {
+        font-size: 24px;
+        margin-left: 20px;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .food {
+        margin-top: 10px;
+        display: flex;
+        justify-content:space-around;
+        gap: 2px;
+    }
+    
+    .img img {
+        margin-left: 20px;
+        border-radius: 20px;
+        height: 60px;
+        width: 70px;
+    }
+    
+    .img {
+        border: 1px solid red;
+        margin-left: 10px;
+        height: 140px;
+        width: 190px;
+        margin-top: 10px;
+        border-radius: 0% 100% 0% 100% / 93% 95% 95% 77%;
+        border: none;
+        background-color: rgb(202, 201, 201);
+    }
+    
+    .img p:nth-of-type(1) {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        margin-top: 2px;
+        color: rgb(17, 17, 17);
+        font-family: var(--kfont2);
+    }
+    
+    .img p:nth-of-type(2) {
+        font-size: 9px;
+        margin-top: 2px;
+        margin-left: 20px;
+        font-family: var(--kfont4);
+    }
+    
+    
+    .briyani {
+        position: relative;
+        top: 280px;
+        margin-top: 10px;
+    }
+    
+    .spicy {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .briyani h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    
+    .spicy {
+        position: relative;
+        margin-top: 10px;
+    }
+    
+    
+    .spicy img {
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+    }
+    
+    .spicy:hover>:not(:hover) {
+        filter: blur(5px);
+        opacity: 5;
+    }
+    
+    .taste1 {
+        position: absolute;
+        top: 20px;
+        left:60px;
+        z-index: 5;
+    }
+    
+    .taste2 {
+        position: absolute;
+        top: 20px;
+        right: 155px;
+        z-index: 15;
+    }
+    
+    .taste3 {
+        position: absolute;
+        top: 20px;
+        right: 70px;
+        z-index: 7;
+    }
+    
+    .taste4 {
+        position: absolute;
+        top: 20px;
+        right: 1px;
+        z-index: 3;
+    }
+    
+    .taste5 {
+        position: absolute;
+        top: 20px;
+        left: 1px;
+        z-index: 2;
+    }
+    
+    .offer {
+        margin-top: 5px;
+        border: 2px solid red;
+        border: none;
+        height: 150px;
+        background-image: url(./images/discount.avif);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        top: 470px;
+        padding-top: 10px;
+        color: whitesmoke;
+        backdrop-filter: blur(20px);
+    }
+    
+    .hii {
+        border: 1px solid red;
+        height: 170px;
+        border: none;
+        background-color: white;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+        position: relative;
+        top: 470px;
+    }
+    
+    .hello img {
+        margin-left: 30px;
+        margin-top: 2px;
+        height: 80px;
+        width: 50px;
+        border-radius: 100px;
+    }
+    
+    .hello {
+        border: 2px solid red;
+        width: 590px;
+        height: 190px;
+        border: none;
+    }
+    
+    .hello p a {
+        margin-left: 25px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 800;
+        font-family: Gilroy_Bold;
+        text-shadow: 0px 0px 5px rgb(26, 24, 24);
+    }
+    
+    .hello .about p {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 9px;
+        font-weight: 600;
+        font-family: var(--kfont3);
+    }
+    
+    .reviews {
+        position: relative;
+        top: 460px;
+        border: 1px solid red;
+        border: none;
+        height: 40px;
+    }
+    
+    .reviews h3 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .reviews h3 a {
+        position: absolute;
+        left: 345px;
+        top:10px;
+        font-size: 12px;
+        margin-top: 0px;
+        color: blue;
+    }
+    
+    .letter {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .photo {
+        border: 1px solid red;
+        border: none;
+        background-color: rgb(177, 174, 174);
+        height: 100px;
+        width: 105px;
+        margin-top: 10px;
+        border-radius: 47% 53% 66% 34% / 0% 99% 1% 100%;
+    }
+    
+    .photo img {
+        height: 30px;
+        width: 30px;
+        margin-left: 4px;
+        margin-top: 2px;
+        border-radius: 7px;
+    
+    }
+    
+    .photo button {
+        background-color: green;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 7px;
+        height: 20px;
+        width: 35px;
+        color: white;
+        font-size: 10px;
+    
+    }
+    .photo button i{
+        font-size: 10px;
+    }
+    
+    .photo p:nth-of-type(1) {
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    
+    .photo p:nth-of-type(2) {
+        margin-left: 30px;
+        margin-top: 3px;
+        font-weight: 600;
+        font-size: 7px;
+    }
+    
+    .photo p:nth-of-type(3) {
+        margin-left: 30px;
+        margin-top: 3px;
+        font-weight: 500;
+        font-size: 8px;
+    }
+    
+    footer {
+        border: 1px solid red;
+        border: none;
+        margin-left: 2px;
+        margin-top: 600px;
+        text-align: center;
+        font-weight: 300;
+        height: 260px;
+        background-color: black;
+        color: aliceblue;
+        position: relative;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    footer .button button {
+        height: 25px;
+        width: 100px;
+        border-radius: 30px;
+        border: none;
+        color: rgb(49, 48, 48);
+        font-size: 10px;
+        font-weight: 1000;
+        position: absolute;
+        top: 170px;
+        left: 320px;
+        background-color: rgb(26, 165, 26);
+    }
+    
+    footer h2 {
+        padding-top: 20px;
+        font-size: 14x;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    footer address{
+        font-size: 10px;
+    }
+       
+    
+    
+    footer .mail {
+        border: 1px solid red;
+        border: none;
+        position: absolute;
+        top: 150px;
+        left: 170px;
+    }
+
+    footer .mail h3{
+        font-size: 13px;
+    }
+    
+    .button .fa-brands {
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    
+    
+    
+    footer .hours {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    
+    .follow p .fa-brands {
+        padding-right: 10px;
+    }
+    
+    .button a {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    
+    footer .mail p {
+        font-size: 10px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    
+    footer .mail .fa-brands {
+        padding-right: 10px;
+    }
+    
+    footer .mail .fa-duotone {
+        padding-right: 10px;
+    }
+    
+    .store {
+        position: absolute;
+        top: 140px;
+        border: 1px solid red;
+        border: none;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .store h3 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+    .store img {
+        height: 20px;
+        width: 80px;
+        margin-top: 10px;
+    }
+    
+    footer .terms {
+        position: relative;
+        top: 20px;
+    }
+    
+    footer .terms p {
+        position: absolute;
+        left: 10px;
+        top: 80px;
+        font-size: 8px;
+    }
+    
+    footer .follow p {
+        position: absolute;
+        top:80px;
+        left: 180px;
+        font-size: 8px;
+    }
+    
+    .card {
+        position: absolute;
+        right: 10px;
+        top: 84px;
+    }
+    
+    .card img {
+        height: 10px;
+        width: 14px;
+    }
+    
+    
+    }

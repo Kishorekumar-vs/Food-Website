@@ -1,0 +1,709 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color:  rgb(212, 209, 209);
+}
+
+.hii {
+    border: 1px solid red;
+    height: 80px;
+    border: none;
+    /* background: linear-gradient(to left, rgb(163, 163, 161), white); */
+}
+
+.hii h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.page1 {
+    margin-top: 50px;
+    position: relative;
+    border: 1px solid red;
+    height: 150px;
+    border: none;
+    margin-left: 40px;
+}
+
+.page1 img {
+    height: 250px;
+    width: 550px;
+    position: absolute;
+    left: 650px;
+    border-radius: 20px;
+}
+
+.page1 p {
+    height: 60px;
+    width: 600px;
+    position: absolute;
+    top: 65px;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.page1 h4 {
+    position: absolute;
+    top: 20px;
+    left: 440px;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+}
+
+.page2 {
+    margin-top: 170px;
+    position: relative;
+    border: 1px solid red;
+    height: 150px;
+    border: none;
+    margin-left: 40px;
+}
+
+.page2 img {
+    height: 350px;
+    width: 650px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.page2 p {
+    height: 60px;
+    width: 600px;
+    position: absolute;
+    top: 85px;
+    left: 660px;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.page2 h4 {
+    position: absolute;
+    top: 40px;
+    left: 1060px;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+}
+
+footer {
+    border: 1px solid red;
+    border: none;
+    /* width: 1345px; */
+    margin-left: 2px;
+    margin-top: 260px;
+    text-align: center;
+    font-weight: 300;
+    height: 265px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+footer .button button {
+    height: 45px;
+    width: 155px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(49, 48, 48);
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    top: 170px;
+    left: 1090px;
+    background-color: rgb(26, 165, 26);
+
+}
+
+footer h2 {
+    padding-top: 20px;
+}
+
+footer .mail {
+    border: 1px solid red;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+
+}
+
+.button .fa-brands {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+footer .hours {
+    padding-top: 10px;
+}
+
+footer .follow {
+    padding: 10px;
+}
+
+
+.follow p .fa-brands {
+    padding-right: 10px;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer address {
+    margin-top: 10px;
+}
+
+footer .mail p {
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+footer .mail .fa-brands {
+    padding-right: 10px;
+}
+
+footer .mail .fa-duotone {
+    padding-right: 10px;
+}
+
+.store {
+    position: absolute;
+    top: 20px;
+    border: 1px solid red;
+    border: none;
+    height: 80px;
+    width: 190px;
+}
+
+.store h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.store img {
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+footer .terms {
+    position: relative;
+    top: 20px;
+}
+
+footer .terms p {
+    position: absolute;
+    left: 30px;
+    top: 42px;
+}
+
+footer .follow p {
+    position: absolute;
+    left: 500px;
+}
+
+.card {
+    position: absolute;
+    right: 100px;
+    top: 46px;
+}
+
+.card img {
+    height: 20px;
+    width: 40px;
+}
+
+@media(max-width:768px){
+    .hii {
+        border: 1px solid red;
+        height: 80px;
+        border: none;
+        /* background: linear-gradient(to left, rgb(163, 163, 161), white); */
+    }
+    
+    .hii h1 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 20px;
+        text-shadow: 0px 0px 5px black;
+    }
+    
+    .page1 {
+        margin-top: 50px;
+        position: relative;
+        border: 1px solid red;
+        height: 150px;
+        border: none;
+        margin-left: 10px;
+    }
+    
+    .page1 img {
+        height: 190px;
+        width: 300px;
+        position: absolute;
+        left: 400px;
+        border-radius: 20px;
+    }
+    
+    .page1 p {
+        height: 20px;
+        width: 290px;
+        position: absolute;
+        top: 65px;
+        margin-left: 70px;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    .page1 h4 {
+        position: absolute;
+        top: 20px;
+        left: 220px;
+        font-size: 20px;
+        margin-left: 10px;
+    
+    
+    }
+    
+    .page2 {
+        margin-top: 110px;
+        position: relative;
+        border: 1px solid red;
+        height: 150px;
+        border: none;
+        margin-left: 10px;
+    }
+    
+    .page2 img {
+        height: 210px;
+        width: 340px;
+        position: absolute;
+        left: 0px;
+        top: 40px;
+        border-radius: 20px;
+    }
+    
+    .page2 p {
+        height: 60px;
+        width: 400px;
+        position: absolute;
+        top: 50px;
+        left: 310px;
+        margin-left: 40px;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    .page2 h4 {
+        position: absolute;
+        top: 3px;
+        left: 580px;
+        font-size: 20px;
+        margin-left: 10px;
+    
+    
+    }
+    footer {
+        border: 1px solid red;
+        border: none;
+        margin-left: 2px;
+        margin-top: 140px;
+        text-align: center;
+        font-weight: 300;
+        height: 260px;
+        background-color: black;
+        color: aliceblue;
+        position: relative;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    footer .button button {
+        height: 35px;
+        width: 125px;
+        border-radius: 30px;
+        border: none;
+        color: rgb(49, 48, 48);
+        font-size: 15px;
+        font-weight: 1000;
+        position: absolute;
+        top: 170px;
+        left: 610px;
+        background-color: rgb(26, 165, 26);
+    }
+    
+    footer h2 {
+        padding-top: 20px;
+        font-size: 18x;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    
+    
+    footer .mail {
+        border: 1px solid red;
+        border: none;
+        position: absolute;
+        top: 20px;
+        left: 570px;
+    }
+    
+    .button .fa-brands {
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    
+    
+    
+    footer .hours {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    
+    
+    .follow p .fa-brands {
+        padding-right: 10px;
+    }
+    
+    .button a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    
+    footer .mail p {
+        font-size: 15px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    
+    footer .mail .fa-brands {
+        padding-right: 10px;
+    }
+    
+    footer .mail .fa-duotone {
+        padding-right: 10px;
+    }
+    
+    .store {
+        position: absolute;
+        top: 20px;
+        left:20px;
+        border: 1px solid red;
+        border: none;
+        height: 80px;
+        width: 130px;
+    }
+    
+    .store h3 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .store img {
+        height: 50px;
+        width: 140px;
+        margin-top: 10px;
+    }
+    
+    footer .terms {
+        position: relative;
+        top: 20px;
+    }
+    
+    footer .terms p {
+        position: absolute;
+        left: 10px;
+        top: 42px;
+        font-size: 13px;
+    }
+    
+    footer .follow p {
+        position: absolute;
+        left: 320px;
+        font-size: 13px;
+    }
+    
+    .card {
+        position: absolute;
+        right: 10px;
+        top: 46px;
+    }
+    
+    .card img {
+        height: 19px;
+        width: 25px;
+    }
+    
+    
+    }
+
+    @media(max-width:430px){
+        .hii {
+            border: 1px solid red;
+            height: 80px;
+            border: none;
+            /* background: linear-gradient(to left, rgb(163, 163, 161), white); */
+        }
+        
+        .hii h1 {
+            text-align: center;
+            font-size: 35px;
+            font-weight: 700;
+            padding-top: 20px;
+            text-shadow: 0px 0px 5px black;
+        }
+        
+        .page1 {
+            margin-top: 50px;
+            position: relative;
+            border: 1px solid red;
+            height: 150px;
+            border: none;
+            margin-left: 10px;
+        }
+        
+        .page1 img {
+            height: 150px;
+            width: 200px;
+            position: absolute;
+            top:70px;
+            left: 220px;
+            border-radius: 50%;
+        }
+        
+        .page1 p {
+            height: 60px;
+            width: 200px;
+            position: absolute;
+            top: 65px;
+            margin-left:0px;
+            font-size: 16px;
+            text-align: justify;
+            /* line-height: 35px; */
+            font-family: Okra, Helvetica, sans-serif;
+        }
+        
+        .page1 h4 {
+            position: absolute;
+            top: 20px;
+            left: 130px;
+            font-size: 20px;
+            margin-left: 10px;
+        
+        
+        }
+        
+        .page2 {
+            margin-top: 170px;
+            position: relative;
+            border: 1px solid red;
+            height: 150px;
+            border: none;
+            margin-left: 0px;
+        }
+        
+        .page2 img {
+            height: 150px;
+            width: 200px;
+            position: absolute;
+            top: 190px;
+            border-radius: 50%;
+        }
+        
+        .page2 p {
+            height: 60px;
+            width: 220px;
+            position: absolute;
+            top: 85px;
+            left: 170px;
+            margin-left: 40px;
+            font-size: 16px;
+            line-height: 19px;
+            font-family: Okra, Helvetica, sans-serif;
+        }
+        
+        .page2 h4 {
+            position: absolute;
+            top: 40px;
+            left: 290px;
+            font-size: 20px;
+            margin-left: 10px;
+        
+        
+        }
+        footer {
+            border: 1px solid red;
+            border: none;
+            margin-left: 2px;
+            margin-top: 300px;
+            text-align: center;
+            font-weight: 300;
+            height: 270px;
+            background-color: black;
+            color: aliceblue;
+            position: relative;
+            font-family: Okra, Helvetica, sans-serif;
+        }
+        
+        footer .button button {
+            height: 25px;
+            width: 100px;
+            border-radius: 30px;
+            border: none;
+            color: rgb(49, 48, 48);
+            font-size: 10px;
+            font-weight: 1000;
+            position: absolute;
+            top: 170px;
+            left: 320px;
+            background-color: rgb(26, 165, 26);
+        }
+        
+        footer h2 {
+            padding-top: 20px;
+            font-size: 14x;
+        }
+        footer p{
+            font-size: 10px;
+        }
+        footer address{
+            font-size: 10px;
+        }
+           
+        
+        
+        footer .mail {
+            border: 1px solid red;
+            border: none;
+            position: absolute;
+            top: 150px;
+            left: 170px;
+        }
+    
+        footer .mail h3{
+            font-size: 13px;
+        }
+        
+        .button .fa-brands {
+            padding-right: 10px;
+            font-size: 25px;
+        }
+        
+        
+        
+        footer .hours {
+            padding-top: 10px;
+            font-size: 10px;
+        }
+        
+        
+        .follow p .fa-brands {
+            padding-right: 10px;
+        }
+        
+        .button a {
+            text-decoration: none;
+            color: black;
+            font-size: 10px;
+            margin-bottom: 20px;
+        }
+        
+        footer .mail p {
+            font-size: 10px;
+            margin-top: 5px;
+            padding-top: 5px;
+        }
+        
+        footer .mail .fa-brands {
+            padding-right: 10px;
+        }
+        
+        footer .mail .fa-duotone {
+            padding-right: 10px;
+        }
+        
+        .store {
+            position: absolute;
+            top: 140px;
+            border: 1px solid red;
+            border: none;
+            height: 80px;
+            width: 80px;
+        }
+        
+        .store h3 {
+            font-size: 10px;
+            font-weight: 600;
+        }
+        
+        .store img {
+            height: 20px;
+            width: 80px;
+            margin-top: 10px;
+        }
+        
+        footer .terms {
+            position: relative;
+            top: 20px;
+        }
+        
+        footer .terms p {
+            position: absolute;
+            left: 10px;
+            top: 80px;
+            font-size: 8px;
+        }
+        
+        footer .follow p {
+            position: absolute;
+            top:80px;
+            left: 180px;
+            font-size: 8px;
+        }
+        
+        .card {
+            position: absolute;
+            right: 10px;
+            top: 84px;
+        }
+        
+        .card img {
+            height: 10px;
+            width: 14px;
+        }
+        
+        
+        }
+
+   

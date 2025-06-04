@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-wrap: wrap;
+    background-image: url(./images/z2.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to right,rgb(145, 145, 202),rgb(173, 117, 173)); */
+
+
+
+}
+
+
+.login {
+    border: 4px solid rgb(248, 243, 243);
+    border: none;
+    border-radius: 35px;
+    height: 450px;
+    width: 400px;
+    margin: 110px auto;
+    backdrop-filter: blur(10px);
+    color: rgb(247, 241, 241);
+
+
+}
+
+.login:hover {
+    box-shadow: 0px 0px 15px 10px rgb(241, 236, 236);
+     transition: 0.9s all;
+}
+
+.login h1 {
+
+    text-align: center;
+    /* background:linear-gradient( to right,rgb(230, 194, 126),rgb(231, 95, 95));  */
+    padding-top: 40px;
+    text-shadow: 0px 0px 10px rgb(248, 4, 4);
+    color: rgb(241, 239, 239);
+}
+
+input[type=text] {
+    border-radius: 20px;
+    height: 50px;
+    width: 80%;
+    padding: 10px 0px 2px 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+
+    background-color: rgb(243, 242, 240);
+
+}
+
+#hello {
+    padding: 0px 0px 0px 200px;
+}
+
+.forgot {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.forgot a {
+    padding: 25px 0px 0px 115px;
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+.forgot label {
+    padding: 55px 0px 0px 5px;
+}
+
+button {
+
+    margin-top: 34px;
+    margin-left: 85px;
+    height: 45px;
+    width: 60%;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+    background: linear-gradient(to right, rgb(230, 194, 126), rgb(231, 95, 95));
+    border: none;
+}
+
+.login .account p {
+    padding: 0px 0px 0px 75px;
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+
+.login .account p a {
+    color: rgb(241, 9, 9);
+    font-weight: 600;
+}
+
+
+button:hover {
+    box-shadow: 0px 0px 5px 6px rgb(247, 245, 245);
+    transition: all 0.5s;
+
+}
+
+@media screen and (max-width:430px){
+.login{
+    margin: 243px auto;
+}
+}

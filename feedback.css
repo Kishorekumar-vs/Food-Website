@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ body{
+     background-image: url(./images/contact1.avif);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+    
+} 
+
+.hii{
+    border: 1px solid red;
+    height: 80px;
+    border: none;
+    background:linear-gradient(to left,rgb(155, 154, 152),white) ; 
+}
+
+.hii h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.page{
+    border: 1px solid red;
+    border: none;
+    height: 450px;
+    width:450px;
+    position:relative;
+    top:20px;
+    left:460px;
+   
+    
+
+}
+
+
+form{
+    border: 1px solid red;
+    border: none;
+    border: transparent;
+    height:600px;
+    width:400px;
+    margin:40px auto;
+    padding-top:0px ;
+    padding-bottom: 90px;
+    padding-left: 45px;
+    /* background-color: rgb(247, 247, 247); */
+    color: black;
+    backdrop-filter: blur(5px);
+    border-radius: 22px;
+
+}
+
+form:hover{
+    box-shadow: 0px 0px 5px 5px rgb(250, 247, 247);
+    transition: all 0.5s;
+}
+form h3{
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    color: white;
+    
+}
+.label{
+    margin-left: 10px;
+}
+
+
+
+
+input[type=text]{
+    height:45px;
+    width:280px;
+    margin-top: 2px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 7px;
+    
+}
+
+input[type=email]{
+    height:35px;
+    width:280px;
+    margin-top: 2px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 7px;
+    
+}
+
+input[type=number]{
+    height:35px;
+    width:280px;
+    margin-top: 2px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 7px;
+    
+}
+textarea{
+    padding-left: 60px;
+    margin-top: 5px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+form button{
+    margin-top: 20px;
+    margin-left: 85px;
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: rgb(167, 170, 169);
+    border: none;
+}
+
+form button:hover{
+    box-shadow: 0px 0px 8px 10px grey;
+    transition: all 0.5s;
+}
+
+form button {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer {
+    border: 1px solid red;
+    border: none;
+    /* width: 1345px; */
+    margin-left: 2px;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 300;
+    height: 265px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+footer .button button {
+    height: 45px;
+    width: 155px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(49, 48, 48);
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    top: 170px;
+    left: 1090px;
+    background-color: rgb(26, 165, 26);
+
+}
+
+
+footer .mail {
+    border: 1px solid red;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+   
+}
+
+.button .fa-brands {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+footer .hours {
+    padding-top: 10px;
+}
+
+footer .follow {
+    padding: 10px;
+}
+
+
+.follow p .fa-brands {
+    padding-right: 10px;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+footer address{
+    margin-top: 10px;
+}
+
+footer .mail p {
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+footer .mail .fa-brands {
+    padding-right: 10px;
+}
+
+footer .mail .fa-duotone {
+    padding-right: 10px;
+}
+
+.store{
+    position: absolute;
+    top:20px;
+    border:1px solid red;
+    border: none;
+    height: 80px;
+    width:190px ;
+}
+
+.store h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.store img{
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+footer .terms{
+    position: relative;
+    top:20px;
+}
+footer .terms p{
+    position: absolute;
+    left:30px;
+    top:42px;
+}
+
+footer .follow p{
+    position:absolute;
+    left:500px;
+}
+
+.card{
+    position: absolute;
+    right:100px;
+    top:46px;
+}
+
+.card img{
+    height: 20px;
+    width: 40px;
+}
+
+
+
+@media(max-width:768px){
+footer {
+    border: 1px solid red;
+    border: none;
+    margin-left: 2px;
+    text-align: center;
+    font-weight: 300;
+    height: 260px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+footer .button button {
+    height: 35px;
+    width: 125px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(49, 48, 48);
+    font-size: 15px;
+    font-weight: 1000;
+    position: absolute;
+    top: 170px;
+    left: 610px;
+    background-color: rgb(26, 165, 26);
+}
+
+footer h2 {
+    padding-top: 20px;
+    font-size: 18x;
+}
+footer p{
+    font-size: 12px;
+}
+
+
+footer .mail {
+    border: 1px solid red;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 570px;
+}
+
+.button .fa-brands {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+footer .hours {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+
+.follow p .fa-brands {
+    padding-right: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+footer .mail p {
+    font-size: 15px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+footer .mail .fa-brands {
+    padding-right: 10px;
+}
+
+footer .mail .fa-duotone {
+    padding-right: 10px;
+}
+
+.store {
+    position: absolute;
+    top: 20px;
+    left:20px;
+    border: 1px solid red;
+    border: none;
+    height: 80px;
+    width: 130px;
+}
+
+.store h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.store img {
+    height: 50px;
+    width: 140px;
+    margin-top: 10px;
+}
+
+footer .terms {
+    position: relative;
+    top: 20px;
+}
+
+footer .terms p {
+    position: absolute;
+    left: 10px;
+    top: 42px;
+    font-size: 13px;
+}
+
+footer .follow p {
+    position: absolute;
+    left: 320px;
+    font-size: 13px;
+}
+
+.card {
+    position: absolute;
+    right: 10px;
+    top: 46px;
+}
+
+.card img {
+    height: 19px;
+    width: 25px;
+}
+
+
+}
+
+@media(max-width:430px){
+    footer {
+        border: 1px solid red;
+        border: none;
+        margin-left: 2px;
+        margin-top: 60px;
+        text-align: center;
+        font-weight: 300;
+        height: 260px;
+        background-color: black;
+        color: aliceblue;
+        position: relative;
+        font-family: Okra, Helvetica, sans-serif;
+    }
+    
+    footer .button button {
+        height: 25px;
+        width: 100px;
+        border-radius: 30px;
+        border: none;
+        color: rgb(49, 48, 48);
+        font-size: 10px;
+        font-weight: 1000;
+        position: absolute;
+        top: 170px;
+        left: 320px;
+        background-color: rgb(26, 165, 26);
+    }
+    
+    footer h2 {
+        padding-top: 20px;
+        font-size: 14x;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    footer address{
+        font-size: 10px;
+    }
+       
+    
+    
+    footer .mail {
+        border: 1px solid red;
+        border: none;
+        position: absolute;
+        top: 150px;
+        left: 170px;
+    }
+
+    footer .mail h3{
+        font-size: 13px;
+    }
+    
+    .button .fa-brands {
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    
+    
+    
+    footer .hours {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    
+    .follow p .fa-brands {
+        padding-right: 10px;
+    }
+    
+    .button a {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    
+    footer .mail p {
+        font-size: 10px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    
+    footer .mail .fa-brands {
+        padding-right: 10px;
+    }
+    
+    footer .mail .fa-duotone {
+        padding-right: 10px;
+    }
+    
+    .store {
+        position: absolute;
+        top: 140px;
+        border: 1px solid red;
+        border: none;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .store h3 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+    .store img {
+        height: 20px;
+        width: 80px;
+        margin-top: 10px;
+    }
+    
+    footer .terms {
+        position: relative;
+        top: 20px;
+    }
+    
+    footer .terms p {
+        position: absolute;
+        left: 10px;
+        top: 80px;
+        font-size: 8px;
+    }
+    
+    footer .follow p {
+        position: absolute;
+        top:80px;
+        left: 180px;
+        font-size: 8px;
+    }
+    
+    .card {
+        position: absolute;
+        right: 10px;
+        top: 84px;
+    }
+    
+    .card img {
+        height: 10px;
+        width: 14px;
+    }
+    
+    
+    }
